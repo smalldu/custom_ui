@@ -16,13 +16,15 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     spaceLabel.verticalSpace = 20
+//    URLSession
+//    httpShouldUsePipelining
+//    let config = URLSessionConfiguration.default
+//    print(config.httpShouldUsePipelining)
     
   }
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
-  
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01DC663F639F60BC82A69719 /* Pods_custom_uikit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDC7EED7DA8B9FDA82FF8A1 /* Pods_custom_uikit_Tests.framework */; };
+		20CC1E9A1ED027EE0013E962 /* SafeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC1E991ED027EE0013E962 /* SafeNavigationController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1BDC7EED7DA8B9FDA82FF8A1 /* Pods_custom_uikit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_custom_uikit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		206DBF9FFC340D978FDF7D3F /* Pods-custom_uikit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custom_uikit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-custom_uikit_Tests/Pods-custom_uikit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20CC1E991ED027EE0013E962 /* SafeNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeNavigationController.swift; sourceTree = "<group>"; };
 		2FBAE56F42B70E59BBD02591 /* Pods-custom_uikit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-custom_uikit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-custom_uikit_Example/Pods-custom_uikit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4440AAE38CE40C5EFAD3CC01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* custom_uikit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custom_uikit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				20CC1E991ED027EE0013E962 /* SafeNavigationController.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = Example;
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				20CC1E9A1ED027EE0013E962 /* SafeNavigationController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
