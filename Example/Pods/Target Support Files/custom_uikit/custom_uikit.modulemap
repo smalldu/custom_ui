@@ -1,0 +1,6 @@
+framework module custom_uikit {
+  umbrella header "custom_uikit-umbrella.h"
+
+  export *
+  module * { export * }
+}

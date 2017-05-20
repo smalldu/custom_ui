@@ -1,0 +1,6 @@
+framework module Pods_custom_uikit_Example {
+  umbrella header "Pods-custom_uikit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
