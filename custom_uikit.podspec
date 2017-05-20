@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'custom_uikit'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'custom_uikit custom some uikit'
   s.homepage         = 'https://github.com/smalldu/specs'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

@@ -1,9 +1,8 @@
 {
   "name": "custom_uikit",
   "version": "0.1.0",
-  "summary": "A short description of custom_uikit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/duzhe/custom_uikit",
+  "summary": "custom_uikit custom some uikit",
+  "homepage": "https://github.com/smalldu/specs",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +11,7 @@
     "duzhe": "363958265@qq.com"
   },
   "source": {
-    "git": "https://github.com/duzhe/custom_uikit.git",
+    "git": "https://github.com/smalldu/custom_ui.git",
     "tag": "0.1.0"
   },
   "platforms": {

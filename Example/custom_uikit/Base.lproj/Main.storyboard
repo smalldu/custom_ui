@@ -21,9 +21,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yws-AY-5mC" customClass="SpaceLabel" customModule="custom_uikit_Example" customModuleProvider="target">
-                                <rect key="frame" x="166.5" y="124" width="42" height="21"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgb-BU-FDP" customClass="SpaceLabel" customModule="custom_uikit">
+                                <rect key="frame" x="165" y="323" width="45.5" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.50882354416372721" blue="0.50785213879007229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -31,12 +31,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yws-AY-5mC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="104" id="Dm9-t8-X10"/>
-                            <constraint firstItem="yws-AY-5mC" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ju2-re-CkP"/>
+                            <constraint firstItem="Dgb-BU-FDP" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="JwO-g1-viM"/>
+                            <constraint firstItem="Dgb-BU-FDP" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="cI4-iY-l0i"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="spaceLabel" destination="yws-AY-5mC" id="F8c-7f-ywi"/>
+                        <outlet property="spaceLabel" destination="Dgb-BU-FDP" id="yLf-CS-GQh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
