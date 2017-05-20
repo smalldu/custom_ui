@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'custom_uikit_Example' do
+  pod 'custom_uikit', :path => '../'
+
+  target 'custom_uikit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
