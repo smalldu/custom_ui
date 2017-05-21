@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1E7F000A84F998E6E19A72EE41C65E40 /* Pods-custom_uikit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E4B33379369A4529BBBE13FA81E286 /* Pods-custom_uikit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E2EFA550A20010356BF16FFA6CEE550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		581D8E35FE2CB2AC2C03054B0934618E /* SpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4918B60BE305E991B2F599AB599B0E90 /* SpaceButton.swift */; };
 		594C815141EB88A7A89EC444B8F098BF /* Pods-custom_uikit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A03777050EB64743D8E49FF38FDD78 /* Pods-custom_uikit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62C0C3BE050D54C5CA3E5E83000EDDC4 /* Pods-custom_uikit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551A9222779A7423594902DF1FC8CB86 /* Pods-custom_uikit_Tests-dummy.m */; };
-		63D23755C2DCDB6BCC370067FEA09BEC /* SpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2538556694E674227E32A4C3663F67C /* SpaceButton.swift */; };
-		6CF6EFAED1DEB8DED697BF562BCF6138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A38EB9F1BFDE5C70EFC6392CEE75FC33 /* custom_uikit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8C95955EECA271D1FB35923076D2B1 /* custom_uikit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8132FD9454E2BB928A108EBBA59E4BA4 /* SpaceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D447B889379A9E8FB9178336CA596930 /* SpaceLabel.swift */; };
+		A9157A1952783FB77C3BE4331901CBA5 /* custom_uikit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907251083A4FEE4BCC330DA31A219FDF /* custom_uikit-dummy.m */; };
 		B77F59210457D8EC8A678B393A9CD61D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BC3EADBBDA55D2D39C806A1F2AD28A57 /* SpaceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F997E834037A836804591BD025440ED /* SpaceLabel.swift */; };
 		C3418AF81D90D4C83E631DC08AB6864E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D4BFD03B9E5EDD576E3B6A3BAB6317EC /* custom_uikit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 907251083A4FEE4BCC330DA31A219FDF /* custom_uikit-dummy.m */; };
+		D551505234F3DBABE67B11070C67DCB9 /* IntelligentLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CE61C258CBB1F54E19A1AA36AC66E /* IntelligentLabel.swift */; };
+		E584C217B7201B8A6C90331615143893 /* custom_uikit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8C95955EECA271D1FB35923076D2B1 /* custom_uikit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFF7A8B269AA5E94EEF2C6BF1685E92E /* Pods-custom_uikit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0BAA3648AF23489DF459E06F0D64F6 /* Pods-custom_uikit_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5927853EA3538EBEB7EE25CF680CF40B;
+			remoteGlobalIDString = 4126DA262DF694B24F3EA40A99E0EB7E;
 			remoteInfo = custom_uikit;
 		};
 /* End PBXContainerItemProxy section */
@@ -33,11 +34,12 @@
 /* Begin PBXFileReference section */
 		02B922A3D3018ACF42BE7E58906F56B1 /* Pods-custom_uikit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-custom_uikit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0FB5FC60B190749210383FCED8F59CD6 /* Pods-custom_uikit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-custom_uikit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		103CE61C258CBB1F54E19A1AA36AC66E /* IntelligentLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IntelligentLabel.swift; sourceTree = "<group>"; };
 		193A3F5ED2B1FFCB3EA001D600CEBC17 /* custom_uikit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = custom_uikit.framework; path = custom_uikit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E52EE5BCD9330A4EADDD38A7183C911 /* custom_uikit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = custom_uikit.xcconfig; sourceTree = "<group>"; };
 		269DF41188C705CEC27A3FF7BF12AAD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AB49FFA2DB5AF9132465F7FC21D5E3B /* Pods-custom_uikit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-custom_uikit_Example-resources.sh"; sourceTree = "<group>"; };
-		3F997E834037A836804591BD025440ED /* SpaceLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpaceLabel.swift; sourceTree = "<group>"; };
+		4918B60BE305E991B2F599AB599B0E90 /* SpaceButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpaceButton.swift; sourceTree = "<group>"; };
 		54B7A5D25F4011BA4FDECC831360C1CD /* custom_uikit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = custom_uikit.modulemap; sourceTree = "<group>"; };
 		551A9222779A7423594902DF1FC8CB86 /* Pods-custom_uikit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-custom_uikit_Tests-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,8 +60,8 @@
 		BAA4F5143B4D3D61EDF3DF539AA66C9E /* Pods_custom_uikit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_custom_uikit_Example.framework; path = "Pods-custom_uikit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D8922EDB1D401A67EF8E6B0E7C826D /* Pods-custom_uikit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-custom_uikit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D3A03777050EB64743D8E49FF38FDD78 /* Pods-custom_uikit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-custom_uikit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D447B889379A9E8FB9178336CA596930 /* SpaceLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpaceLabel.swift; sourceTree = "<group>"; };
 		DD0BAA3648AF23489DF459E06F0D64F6 /* Pods-custom_uikit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-custom_uikit_Example-dummy.m"; sourceTree = "<group>"; };
-		E2538556694E674227E32A4C3663F67C /* SpaceButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpaceButton.swift; sourceTree = "<group>"; };
 		E3B5EC69B5430C220057B054E208AD9B /* Pods-custom_uikit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-custom_uikit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		EE8C95955EECA271D1FB35923076D2B1 /* custom_uikit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "custom_uikit-umbrella.h"; sourceTree = "<group>"; };
 		F6E133401ECF34995C91EC5CCC057794 /* Pods-custom_uikit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-custom_uikit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -75,11 +77,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B3B23FF9D5DC572C5DD446CEC61A99E /* Frameworks */ = {
+		99D7468FAE993BC14B390DD5D1F85FDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF6EFAED1DEB8DED697BF562BCF6138 /* Foundation.framework in Frameworks */,
+				4E2EFA550A20010356BF16FFA6CEE550 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +128,15 @@
 			path = "Target Support Files/Pods-custom_uikit_Example";
 			sourceTree = "<group>";
 		};
+		3DBF3AFEFDDE06E5605221D749C311A8 /* custom_uikit */ = {
+			isa = PBXGroup;
+			children = (
+				7C411D459E6EF62286A372C2568EC90B /* Classes */,
+			);
+			name = custom_uikit;
+			path = custom_uikit;
+			sourceTree = "<group>";
+		};
 		4810E5D323FF264CAF40FE42F1159F29 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,24 +146,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5D4CCC7F95F13842EB1A7FAAA5A07785 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				E2538556694E674227E32A4C3663F67C /* SpaceButton.swift */,
-				3F997E834037A836804591BD025440ED /* SpaceLabel.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		705362B0777651C3E9AEEA3E4FC6F4CA /* custom_uikit */ = {
 			isa = PBXGroup;
 			children = (
-				BCD8948ECB44DE992C59C9D7AC528CDB /* custom_uikit */,
+				3DBF3AFEFDDE06E5605221D749C311A8 /* custom_uikit */,
 				07084CBEC9370BEE6E5D42BA7B409534 /* Support Files */,
 			);
 			name = custom_uikit;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C411D459E6EF62286A372C2568EC90B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				103CE61C258CBB1F54E19A1AA36AC66E /* IntelligentLabel.swift */,
+				4918B60BE305E991B2F599AB599B0E90 /* SpaceButton.swift */,
+				D447B889379A9E8FB9178336CA596930 /* SpaceLabel.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -172,15 +184,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BCD8948ECB44DE992C59C9D7AC528CDB /* custom_uikit */ = {
-			isa = PBXGroup;
-			children = (
-				5D4CCC7F95F13842EB1A7FAAA5A07785 /* Classes */,
-			);
-			name = custom_uikit;
-			path = custom_uikit;
 			sourceTree = "<group>";
 		};
 		BCF6049ED38DEB0119A9B5E655130773 /* Products */ = {
@@ -238,14 +241,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6953A7CAFA7448E892065D4A74AF2D5D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A38EB9F1BFDE5C70EFC6392CEE75FC33 /* custom_uikit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF21D4011487AA5782DC29F46A21C1FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,9 +249,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAD0924E710FB88D5F9D160D3BF0A3C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E584C217B7201B8A6C90331615143893 /* custom_uikit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4126DA262DF694B24F3EA40A99E0EB7E /* custom_uikit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A016F472B8C8F8D15085200BC41462D8 /* Build configuration list for PBXNativeTarget "custom_uikit" */;
+			buildPhases = (
+				AC96EC6BCFCB791E4B723CC3388B9B66 /* Sources */,
+				99D7468FAE993BC14B390DD5D1F85FDC /* Frameworks */,
+				FAD0924E710FB88D5F9D160D3BF0A3C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = custom_uikit;
+			productName = custom_uikit;
+			productReference = 193A3F5ED2B1FFCB3EA001D600CEBC17 /* custom_uikit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		52AFB1556B93B7C4B4C49C9C8B859854 /* Pods-custom_uikit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADEFD04BD7B032B9FE50C23377FA9B8 /* Build configuration list for PBXNativeTarget "Pods-custom_uikit_Example" */;
@@ -273,23 +293,6 @@
 			name = "Pods-custom_uikit_Example";
 			productName = "Pods-custom_uikit_Example";
 			productReference = BAA4F5143B4D3D61EDF3DF539AA66C9E /* Pods_custom_uikit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5927853EA3538EBEB7EE25CF680CF40B /* custom_uikit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E98E4206D430743E68CC26DFF832AE88 /* Build configuration list for PBXNativeTarget "custom_uikit" */;
-			buildPhases = (
-				48BBECFBFB592858BF0D9C0D2DBDE846 /* Sources */,
-				5B3B23FF9D5DC572C5DD446CEC61A99E /* Frameworks */,
-				6953A7CAFA7448E892065D4A74AF2D5D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = custom_uikit;
-			productName = custom_uikit;
-			productReference = 193A3F5ED2B1FFCB3EA001D600CEBC17 /* custom_uikit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6FBA1B0CF142951C01A994CC9B7E9510 /* Pods-custom_uikit_Tests */ = {
@@ -330,7 +333,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5927853EA3538EBEB7EE25CF680CF40B /* custom_uikit */,
+				4126DA262DF694B24F3EA40A99E0EB7E /* custom_uikit */,
 				52AFB1556B93B7C4B4C49C9C8B859854 /* Pods-custom_uikit_Example */,
 				6FBA1B0CF142951C01A994CC9B7E9510 /* Pods-custom_uikit_Tests */,
 			);
@@ -354,13 +357,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BBECFBFB592858BF0D9C0D2DBDE846 /* Sources */ = {
+		AC96EC6BCFCB791E4B723CC3388B9B66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4BFD03B9E5EDD576E3B6A3BAB6317EC /* custom_uikit-dummy.m in Sources */,
-				63D23755C2DCDB6BCC370067FEA09BEC /* SpaceButton.swift in Sources */,
-				BC3EADBBDA55D2D39C806A1F2AD28A57 /* SpaceLabel.swift in Sources */,
+				A9157A1952783FB77C3BE4331901CBA5 /* custom_uikit-dummy.m in Sources */,
+				D551505234F3DBABE67B11070C67DCB9 /* IntelligentLabel.swift in Sources */,
+				581D8E35FE2CB2AC2C03054B0934618E /* SpaceButton.swift in Sources */,
+				8132FD9454E2BB928A108EBBA59E4BA4 /* SpaceLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,12 +374,47 @@
 		39FBA7CD721C31D39B6A38963ECC8557 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = custom_uikit;
-			target = 5927853EA3538EBEB7EE25CF680CF40B /* custom_uikit */;
+			target = 4126DA262DF694B24F3EA40A99E0EB7E /* custom_uikit */;
 			targetProxy = 69887AB7F5069AB8BA433CB7CEE44623 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0F3E3250B4434E8B1FA24122A083798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E52EE5BCD9330A4EADDD38A7183C911 /* custom_uikit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/custom_uikit/custom_uikit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/custom_uikit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/custom_uikit/custom_uikit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = custom_uikit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -417,40 +456,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5A5D9E04F5C78705F5A39D3EF43AD102 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E52EE5BCD9330A4EADDD38A7183C911 /* custom_uikit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/custom_uikit/custom_uikit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/custom_uikit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/custom_uikit/custom_uikit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = custom_uikit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -651,7 +656,7 @@
 			};
 			name = Release;
 		};
-		F2344B1174A92C33C04E0F0B14FA8881 /* Debug */ = {
+		F6D79F173FD49647E9850980F19096BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E52EE5BCD9330A4EADDD38A7183C911 /* custom_uikit.xcconfig */;
 			buildSettings = {
@@ -660,7 +665,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -673,18 +678,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/custom_uikit/custom_uikit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = custom_uikit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -707,11 +711,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E98E4206D430743E68CC26DFF832AE88 /* Build configuration list for PBXNativeTarget "custom_uikit" */ = {
+		A016F472B8C8F8D15085200BC41462D8 /* Build configuration list for PBXNativeTarget "custom_uikit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2344B1174A92C33C04E0F0B14FA8881 /* Debug */,
-				5A5D9E04F5C78705F5A39D3EF43AD102 /* Release */,
+				0F3E3250B4434E8B1FA24122A083798A /* Debug */,
+				F6D79F173FD49647E9850980F19096BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
